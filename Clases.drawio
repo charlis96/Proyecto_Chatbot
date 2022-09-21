@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-        <mxGraphModel dx="645" dy="382" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="440" dy="328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
@@ -66,34 +66,34 @@
                 <mxCell id="3" value="&lt;span style=&quot;font-size: 8px&quot;&gt;Employer&lt;br&gt;Employee&lt;br&gt;Admin&lt;br&gt;Score&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0" vertex="1">
                     <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="Score" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+                <mxCell id="4" value="Score" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
                     <mxGeometry x="314" y="283" width="200" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="4">
+                <mxCell id="5" value="" style="endArrow=none;html=1;rounded=0;" parent="4" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="99.76" y="198" as="sourcePoint"/>
                         <mxPoint x="99.76" y="22" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="&lt;span style=&quot;font-size: 8px&quot;&gt;-Almacenar puntaje&lt;br&gt;-Realizar promedio&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4">
+                <mxCell id="6" value="&lt;span style=&quot;font-size: 8px&quot;&gt;-Almacenar puntaje&lt;br&gt;-Realizar promedio&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4" vertex="1">
                     <mxGeometry y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4">
+                <mxCell id="7" value="&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4" vertex="1">
                     <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="ConsolePrinter" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+                <mxCell id="9" value="ConsolePrinter" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
                     <mxGeometry x="548" y="283" width="200" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="9">
+                <mxCell id="10" value="" style="endArrow=none;html=1;rounded=0;" parent="9" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="99.76" y="198" as="sourcePoint"/>
                         <mxPoint x="99.76" y="22" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="&lt;span style=&quot;font-size: 8px&quot;&gt;-Almacenar puntaje&lt;br&gt;-Realizar promedio&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9">
+                <mxCell id="11" value="&lt;span style=&quot;font-size: 8px&quot;&gt;-Imprimir&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9" vertex="1">
                     <mxGeometry y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="&lt;span style=&quot;font-size: 8px&quot;&gt;Employee&lt;br&gt;Employer&lt;br&gt;Score&lt;br&gt;Service&lt;br&gt;Admin&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9">
+                <mxCell id="12" value="&lt;span style=&quot;font-size: 8px&quot;&gt;Employee&lt;br&gt;Employer&lt;br&gt;Score&lt;br&gt;Service&lt;br&gt;Admin&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9" vertex="1">
                     <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
             </root>
