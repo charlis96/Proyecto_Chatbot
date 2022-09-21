@@ -1,1 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T22:51:35.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ZtSqeabcp7Qtzq3Rnfmn" version="20.3.3" type="device"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VlbW6MwEP01fXS/Unp97EVd19XdtbvW10gGiIaEDcG2/vpNGigg0MtaP/3UlwInzCSZM5mT0IY9DhanAoX+BcdAG60mXjTsSaPVGvQt9auBpQE67b4BPEGwgZoZMCWPYEArRWOCIUowA0nOqSRhEXQ4Y+DIAoaE4PPiay6nuACEyIMSMHUQLaMzgqVv0H6rl+FfgXh+2rPVHZiWAKUvJzOJfIT5PAfZxw17LDiX5i5YjIHq2KVxmZ0tZ/T7fff026/oL/ozOv99eX1knJ3sY7KeggAm/9u1O7Pnzs3V5eTk6MbvXJxctsZXiUnzAdE4idcQB4QlE5bLNIrRnAQUMfU02nEwyaAfQEhY5KhIBncKPAApluqVpLXXMRZpniU0zDPSWs1kuH6OsDWIkkTx1p7XnV2pxELMU5PZo7deq6KzbrEvRCUIhiSMeMxwlI+/usnNMoNWrOzBkF1iqEQOMDzUK0U9Mb7iyJeB6mRiqVuhRwa6h2YleZvSAnBhbZWpy4WrU8FNigmgSJKH4orcwNdPTtTw1lwNBl963QJd1qBfdBLxWDiQ2OUXwVZXaTxTTxIJD2TJ06HobFfQ2aUqXqMoRKzAa/dvrEvLyOVMHkWrwjpUL/TDxYrItFndefp6pNrOGCYOErqcqqT0uGiM7cZwouamCrjO/gjEA3EIj9Jeb0XefrKyzb1krG7RHSobpIiKgxl7Cj9JT7X+ZTEnIyn4PYw5VQNc56xLKH0CIUo8ph4puNqDriVqenSYwAHBWHcymvtEwjREju5xrmTsmXm/Q9FKs6ddqhuDQXkhWL1ufdIXUmxDPgn+OL27f7zkcdzp+7Pz9vx2UFHAD5VPx0FI+RJEmfikBd5DSpSo3jVLanXMalrFAvPaKWKVUiQjcJvMbwlPvfLXhse22kXl7R9A558Vn9YLKOwT5SxGrZ6lT4XdS2ErA1m1YTqcwo45444uik2M5EohQxARZ+q8UaOpmQVhLhcBcohW5ZHNUnlVRx+JHMm32QsIY1k2j/UdqCUN6nxSUa61kx+uAONkyw5grAqsm+wh0A7O313F32dxvpUK/3KbyvpNwIcm/q1KfadO6sVrSP36U1Eq9b3Xlvrum5D6zqfUH0bqe+9M6kdxZJSXu2oxZqd2KZA6gtcYXcMmiyYXGBjCq6aQrz4NgHBUdMyXgUqfNZX9MKFVVxToGs1uI33Ze/ylbdDO0nTQ3NA8FrdJZtD1m7DKvdUmo4+hsTXl8K1oav+lN1fw8gvuM69ec++mHrN/iYz2ZX+12cf/AA==</diagram></mxfile>
+<mxfile host="65bd71144e">
+    <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+        <mxGraphModel dx="645" dy="382" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
+                <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
+                <mxCell id="fW3wcXRNDF-Xh5MFN2CR-0" value="Admin" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="75" y="59" width="200" height="200" as="geometry">
+                        <mxRectangle x="75" y="59" width="72" height="26" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fW3wcXRNDF-Xh5MFN2CR-3" value="" style="endArrow=none;html=1;rounded=0;" parent="fW3wcXRNDF-Xh5MFN2CR-0" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="99.76" y="198" as="sourcePoint"/>
+                        <mxPoint x="99.76" y="22" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fW3wcXRNDF-Xh5MFN2CR-4" value="&lt;span style=&quot;font-size: 8px&quot;&gt;- Indicar categorías de servicios&lt;br&gt;- Dar servicios de baja&lt;br&gt;(Avisandole al oferente)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="fW3wcXRNDF-Xh5MFN2CR-0" vertex="1">
+                    <mxGeometry y="24" width="99" height="176" as="geometry"/>
+                </mxCell>
+                <mxCell id="rozSjkzNouu58hWK4wb9-0" value="&lt;span style=&quot;font-size: 8px&quot;&gt;Employer&lt;br&gt;Employee&lt;br&gt;Service&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="fW3wcXRNDF-Xh5MFN2CR-0" vertex="1">
+                    <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
+                </mxCell>
+                <mxCell id="rozSjkzNouu58hWK4wb9-1" value="Employee" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="314" y="58" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="rozSjkzNouu58hWK4wb9-2" value="" style="endArrow=none;html=1;rounded=0;" parent="rozSjkzNouu58hWK4wb9-1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="99.76" y="198" as="sourcePoint"/>
+                        <mxPoint x="99.76" y="22" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rozSjkzNouu58hWK4wb9-3" value="&lt;span style=&quot;font-size: 8px&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Registrarse&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;-Guardar datos (Jonshon)&lt;br&gt;- Conocer datos personales (Los registrados)&lt;br&gt;- Conocer reputación de un empleador&lt;br&gt;- Ofrecer servicios&lt;br&gt;- Calificar a un empleador&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rozSjkzNouu58hWK4wb9-1" vertex="1">
+                    <mxGeometry y="24" width="99" height="176" as="geometry"/>
+                </mxCell>
+                <mxCell id="rozSjkzNouu58hWK4wb9-4" value="&lt;span style=&quot;font-size: 8px&quot;&gt;Employer&lt;br&gt;Score&lt;br&gt;Service&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rozSjkzNouu58hWK4wb9-1" vertex="1">
+                    <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
+                </mxCell>
+                <mxCell id="rozSjkzNouu58hWK4wb9-5" value="Employer" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="548" y="57" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="rozSjkzNouu58hWK4wb9-6" value="" style="endArrow=none;html=1;rounded=0;" parent="rozSjkzNouu58hWK4wb9-5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="99.76" y="198" as="sourcePoint"/>
+                        <mxPoint x="99.76" y="22" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rozSjkzNouu58hWK4wb9-7" value="&lt;span style=&quot;font-size: 8px&quot;&gt;- Registrarse&lt;br&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Guardar datos (Jonshon)&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;- Buscar ofertas de trabajo&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;-Ver ofertas de trabajo ordenadas por categoría&lt;/span&gt;&lt;br style=&quot;font-size: 8px&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;- Ver ofertas de trabajo ordenadas por cercanía&lt;br&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&amp;nbsp;Ver ofertas de trabajo ordenadas por reputación&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;- Contactar a un trabajador&lt;br&gt;- Calificar a un trabajador&lt;br&gt;-Conocer reputacón del empleado&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rozSjkzNouu58hWK4wb9-5" vertex="1">
+                    <mxGeometry y="34" width="99" height="157" as="geometry"/>
+                </mxCell>
+                <mxCell id="rozSjkzNouu58hWK4wb9-8" value="&lt;span style=&quot;font-size: 8px&quot;&gt;Employee&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Score&lt;br&gt;Service&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rozSjkzNouu58hWK4wb9-5" vertex="1">
+                    <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
+                </mxCell>
+                <mxCell id="0" value="Service " style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="75" y="281" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="1" value="" style="endArrow=none;html=1;rounded=0;" parent="0" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="99.76" y="198" as="sourcePoint"/>
+                        <mxPoint x="99.76" y="22" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="&lt;span style=&quot;font-size: 8px&quot;&gt;-Mostrar propuestas subidas filtrando segun lo deseado&lt;br&gt;-Mostrar categorias&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0" vertex="1">
+                    <mxGeometry y="24" width="99" height="176" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;span style=&quot;font-size: 8px&quot;&gt;Employer&lt;br&gt;Employee&lt;br&gt;Admin&lt;br&gt;Score&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0" vertex="1">
+                    <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Score" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+                    <mxGeometry x="314" y="283" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="99.76" y="198" as="sourcePoint"/>
+                        <mxPoint x="99.76" y="22" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="&lt;span style=&quot;font-size: 8px&quot;&gt;-Almacenar puntaje&lt;br&gt;-Realizar promedio&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4">
+                    <mxGeometry y="24" width="99" height="176" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4">
+                    <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="ConsolePrinter" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+                    <mxGeometry x="548" y="283" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="99.76" y="198" as="sourcePoint"/>
+                        <mxPoint x="99.76" y="22" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&lt;span style=&quot;font-size: 8px&quot;&gt;-Almacenar puntaje&lt;br&gt;-Realizar promedio&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9">
+                    <mxGeometry y="24" width="99" height="176" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;span style=&quot;font-size: 8px&quot;&gt;Employee&lt;br&gt;Employer&lt;br&gt;Score&lt;br&gt;Service&lt;br&gt;Admin&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9">
+                    <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
