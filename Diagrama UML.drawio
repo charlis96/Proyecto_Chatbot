@@ -1,70 +1,70 @@
 <mxfile host="65bd71144e">
     <diagram id="-nLxwoFWnG_tQcsyAVgL" name="Page-1">
-        <mxGraphModel dx="532" dy="376" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="482" dy="359" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Admin" style="swimlane;" vertex="1" parent="1">
+                <mxCell id="2" value="Admin" style="swimlane;" parent="1" vertex="1">
                     <mxGeometry x="75" y="59" width="200" height="200" as="geometry">
                         <mxRectangle x="75" y="59" width="72" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="2">
+                <mxCell id="3" value="" style="endArrow=none;html=1;rounded=0;" parent="2" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint y="111" as="sourcePoint"/>
                         <mxPoint x="200" y="111.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="&lt;span style=&quot;font-size: 8px&quot;&gt;+ SetCategory()&lt;br&gt;+ CancelService()&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2">
+                <mxCell id="8" value="&lt;span style=&quot;font-size: 8px&quot;&gt;+ SetCategory()&lt;br&gt;+ CancelService()&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="2" vertex="1">
                     <mxGeometry y="112" width="200" height="88" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="Employee" style="swimlane;" vertex="1" parent="1">
+                <mxCell id="13" value="Employee" style="swimlane;" parent="1" vertex="1">
                     <mxGeometry x="319" y="59" width="200" height="200" as="geometry">
                         <mxRectangle x="75" y="59" width="72" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="13">
+                <mxCell id="14" value="" style="endArrow=none;html=1;rounded=0;" parent="13" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint y="111" as="sourcePoint"/>
                         <mxPoint x="200" y="111.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="&lt;span style=&quot;font-size: 8px&quot;&gt;+ OfferService(serviceType)&lt;br&gt;+ GetEmployerReputation(Employer) : double&lt;br&gt;+ RateEmployer(Employer)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="13">
+                <mxCell id="15" value="&lt;span style=&quot;font-size: 8px&quot;&gt;+ OfferService(serviceType)&lt;br&gt;+ GetEmployerReputation(Employer ID) : double&lt;br&gt;+ RateEmployer(Employer ID)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="13" vertex="1">
                     <mxGeometry y="112" width="200" height="88" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="&lt;span style=&quot;font-size: 8px&quot;&gt;+ Name : string&lt;br&gt;+ ID : int&lt;br&gt;+ PhoneNumber: int&lt;br&gt;+ AvailableServices : string&lt;br&gt;+ Rating : double&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="13">
+                <mxCell id="17" value="&lt;span style=&quot;font-size: 8px&quot;&gt;+ Name : string&lt;br&gt;+ ID : int&lt;br&gt;+ PhoneNumber: int&lt;br&gt;+ AvailableServices : string&lt;br&gt;+ Rating : double&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="13" vertex="1">
                     <mxGeometry y="22" width="200" height="88" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Employer" style="swimlane;" vertex="1" parent="1">
+                <mxCell id="18" value="Employer" style="swimlane;" parent="1" vertex="1">
                     <mxGeometry x="586" y="58" width="200" height="200" as="geometry">
                         <mxRectangle x="75" y="59" width="72" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="18">
+                <mxCell id="19" value="" style="endArrow=none;html=1;rounded=0;" parent="18" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint y="111" as="sourcePoint"/>
                         <mxPoint x="200" y="111.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="20" value="&lt;span style=&quot;font-size: 8px&quot;&gt;+ GetOffersList(serviceType)&lt;br&gt;+ GetEmployerReputation(Employer) : double&lt;br&gt;+ RateEmployer(Employer)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="18">
+                <mxCell id="20" value="&lt;span style=&quot;font-size: 8px&quot;&gt;+ GetOffersList(serviceType)&lt;br&gt;+ ContactEmployee(Employee ID)&lt;br&gt;+ GetEmployerReputation(Employee ID) : double&lt;br&gt;+ RateEmployee(Employee ID)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="18" vertex="1">
                     <mxGeometry y="112" width="200" height="88" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="&lt;span style=&quot;font-size: 8px&quot;&gt;+ Name : string&lt;br&gt;+ ID : int&lt;br&gt;+ PhoneNumber: int&lt;br&gt;+ Rating : double&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="18">
+                <mxCell id="21" value="&lt;span style=&quot;font-size: 8px&quot;&gt;+ Name : string&lt;br&gt;+ ID : int&lt;br&gt;+ PhoneNumber: int&lt;br&gt;+ Rating : double&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="18" vertex="1">
                     <mxGeometry y="22" width="200" height="88" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="Employer" style="swimlane;" vertex="1" parent="1">
+                <mxCell id="22" value="Employer" style="swimlane;" parent="1" vertex="1">
                     <mxGeometry x="584" y="285" width="200" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="22">
+                <mxCell id="23" value="" style="endArrow=none;html=1;rounded=0;" parent="22" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="99.76" y="198" as="sourcePoint"/>
                         <mxPoint x="99.76" y="22" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="&lt;span style=&quot;font-size: 8px&quot;&gt;- Registrarse&lt;br&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Guardar datos (.json)&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;- Buscar ofertas de trabajo&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;-Ver ofertas de trabajo ordenadas por categoría&lt;/span&gt;&lt;br style=&quot;font-size: 8px&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;- Ver ofertas de trabajo ordenadas por cercanía&lt;br&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&amp;nbsp;Ver ofertas de trabajo ordenadas por reputación&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;- Contactar a un trabajador&lt;br&gt;- Calificar a un trabajador&lt;br&gt;-Conocer reputacón del empleado&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="22">
+                <mxCell id="24" value="&lt;span style=&quot;font-size: 8px&quot;&gt;- Registrarse&lt;br&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Guardar datos (.json)&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;- Buscar ofertas de trabajo&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;-Ver ofertas de trabajo ordenadas por categoría&lt;/span&gt;&lt;br style=&quot;font-size: 8px&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;- Ver ofertas de trabajo ordenadas por cercanía&lt;br&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&amp;nbsp;Ver ofertas de trabajo ordenadas por reputación&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;- Contactar a un trabajador&lt;br&gt;- Calificar a un trabajador&lt;br&gt;-Conocer reputación del trabajador&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="22" vertex="1">
                     <mxGeometry y="34" width="99" height="157" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="&lt;span style=&quot;font-size: 8px&quot;&gt;Employee&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Rating&lt;br&gt;Service&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="22">
+                <mxCell id="25" value="&lt;span style=&quot;font-size: 8px&quot;&gt;Employee&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Rating&lt;br&gt;Service&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="22" vertex="1">
                     <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
             </root>

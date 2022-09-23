@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-        <mxGraphModel dx="771" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="408" dy="304" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
@@ -45,8 +45,8 @@
                         <mxPoint x="99.76" y="22" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="rozSjkzNouu58hWK4wb9-7" value="&lt;span style=&quot;font-size: 8px&quot;&gt;- Registrarse&lt;br&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Guardar datos (.json)&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;- Buscar ofertas de trabajo&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;-Ver ofertas de trabajo ordenadas por categoría&lt;/span&gt;&lt;br style=&quot;font-size: 8px&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;- Ver ofertas de trabajo ordenadas por cercanía&lt;br&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&amp;nbsp;Ver ofertas de trabajo ordenadas por reputación&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;- Contactar a un trabajador&lt;br&gt;- Calificar a un trabajador&lt;br&gt;-Conocer reputacón del empleado&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rozSjkzNouu58hWK4wb9-5" vertex="1">
-                    <mxGeometry y="34" width="99" height="157" as="geometry"/>
+                <mxCell id="rozSjkzNouu58hWK4wb9-7" value="&lt;font style=&quot;font-size: 6px&quot;&gt;- Registrarse&lt;br&gt;-Guardar datos (.json)&lt;br&gt;- Buscar ofertas de trabajo&lt;br&gt;-Ver ofertas de trabajo ordenadas por categoría&lt;br&gt;- Ver ofertas de trabajo ordenadas por cercanía&lt;br&gt;-&amp;nbsp;Ver ofertas de trabajo ordenadas por reputación&lt;br&gt;- Contactar a un trabajador&lt;br&gt;- Calificar a un trabajador&lt;br&gt;-Conocer reputacón del trabajador&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rozSjkzNouu58hWK4wb9-5" vertex="1">
+                    <mxGeometry y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
                 <mxCell id="rozSjkzNouu58hWK4wb9-8" value="&lt;span style=&quot;font-size: 8px&quot;&gt;Employee&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Rating&lt;br&gt;Service&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rozSjkzNouu58hWK4wb9-5" vertex="1">
                     <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
