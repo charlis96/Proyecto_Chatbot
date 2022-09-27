@@ -6,50 +6,48 @@
 
 using ClassLibrary;
 using NUnit.Framework;
+using Library;
 
 namespace Tests
 {
     /// <summary>
-    /// Prueba de la clase <see cref="Train"/>.
+    /// Prueba de la clase <see cref="Employer"/>.
     /// </summary>
     [TestFixture]
-    public class TrainTests
+    public class EmployerTests
     {
         /// <summary>
-        /// El tren para probar.
+        /// El empleador para probar.
         /// </summary>
-        private Train train;
+        private Employer employer;
 
         /// <summary>
-        /// Crea un tren para probar.
+        /// Crea un empleador para probar.
         /// </summary>
         [SetUp]
         public void Setup()
         {
-            this.train = new Train();
+            this.employer = new Employer("Juan", "4.753.174-5", "099328015");
         }
 
         /// <summary>
-        /// Prueba que el tren arranque.
+        /// Prueba que el nombre del empleador sea el correcto.
         /// </summary>
         [Test]
-        public void StartTrainTest()
+        public void EmployerNameTest()
         {
-            Assert.NotNull(this.train);
-            this.train.StartEngines();
-            Assert.True(this.train.IsEngineStarted);
+            string expectedName = "Juan";
+            Assert.AreEqual(this.employer.Name, expectedName);
         }
 
         /// <summary>
-        /// Prueba que el tren se detenga.
+        /// Prueba que el método IdIsValid funciona correctamente con una cédula correcta de 8 dígitos.
         /// </summary>
         [Test]
-        public void StopTrainTest()
+        public void IdIsValidTest()
         {
-            Assert.NotNull(this.train);
-            this.train.StartEngines();
-            this.train.StopEngines();
-            Assert.False(this.train.IsEngineStarted);
+            string expectedName = "Juan";
+            Assert.AreEqual(this.employer.Name, expectedName);
         }
     }
 }

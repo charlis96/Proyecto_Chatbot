@@ -4,29 +4,29 @@
         <name>LibraryTests</name>
     </assembly>
     <members>
-        <member name="T:Tests.TrainTests">
+        <member name="T:Tests.EmployerTests">
             <summary>
-            Prueba de la clase <see cref="T:ClassLibrary.Train"/>.
+            Prueba de la clase <see cref="T:Library.Employer"/>.
             </summary>
         </member>
-        <member name="F:Tests.TrainTests.train">
+        <member name="F:Tests.EmployerTests.employer">
             <summary>
-            El tren para probar.
+            El empleador para probar.
             </summary>
         </member>
-        <member name="M:Tests.TrainTests.Setup">
+        <member name="M:Tests.EmployerTests.Setup">
             <summary>
-            Crea un tren para probar.
+            Crea un empleador para probar.
             </summary>
         </member>
-        <member name="M:Tests.TrainTests.StartTrainTest">
+        <member name="M:Tests.EmployerTests.EmployerNameTest">
             <summary>
-            Prueba que el tren arranque.
+            Prueba que el nombre del empleador sea el correcto.
             </summary>
         </member>
-        <member name="M:Tests.TrainTests.StopTrainTest">
+        <member name="M:Tests.EmployerTests.IdIsValidTest">
             <summary>
-            Prueba que el tren se detenga.
+            Prueba que el método IdIsValid funciona correctamente con una cédula correcta de 8 dígitos.
             </summary>
         </member>
     </members>

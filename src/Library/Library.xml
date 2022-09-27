@@ -4,6 +4,136 @@
         <name>Library</name>
     </assembly>
     <members>
+        <member name="T:Library.Employee">
+            <summary>
+            Esta es la clase de los trabajadores, quienes buscan ofrecer un servicio.
+            </summary>
+        </member>
+        <member name="M:Library.Employee.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Método constructor de la clase Employee.
+            </summary>
+            <param name="name"></param>
+            <param name="iD"></param>
+            <param name="phoneNumber"></param>
+        </member>
+        <member name="M:Library.Employee.RateEmployer(Library.Employer,System.Int32)">
+            <summary>
+            Este método permite que un trabajador puntúe a un empleador.
+            </summary>
+            <param name="employer">El empleador a quien se le va a asignar el puntaje.</param>
+            <param name="rating">El puntaje a asignar.</param>
+        </member>
+        <member name="M:Library.Employee.GetEmployerReputation(Library.Employer)">
+            <summary>
+            Este método sirve para obtener la reputación de un empleador.
+            </summary>
+            <param name="employer">El empleador del cual se quiere conocer la reputación.</param>
+            <returns>La reputación del empleador.</returns>
+        </member>
+        <member name="T:Library.Employer">
+            <summary>
+            Esta es la clase de los empleadores, quienes buscan contratar un servicio.
+            </summary>
+        </member>
+        <member name="M:Library.Employer.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Método constructor de la clase Employer.
+            </summary>
+            <param name="name"></param>
+            <param name="iD"></param>
+            <param name="phoneNumber"></param>
+        </member>
+        <member name="M:Library.Employer.RateEmployee(Library.Employee,System.Int32)">
+            <summary>
+            Este método permite que un empleador puntúe a un trabajador.
+            </summary>
+            <param name="employee">El trabajador a quien se le va a asignar el puntaje.</param>
+            <param name="rating">El puntaje a asignar.</param>
+        </member>
+        <member name="M:Library.Employer.GetEmployeeReputation(Library.Employee)">
+            <summary>
+            Este método sirve para obtener la reputación de un trabajador.
+            </summary>
+            <param name="employee">El trabajador del cual se quiere conocer la reputación.</param>
+            <returns>La reputación del trabajador.</returns>
+        </member>
+        <member name="T:Library.Rating">
+            <summary>
+            Esta clase se encarga de calcular la reputación tanto de un empleador como de un trabajador.
+            </summary>
+        </member>
+        <member name="P:Library.Rating.RatingsSum">
+            <summary>
+            Tiene la suma de todos los puntajes que le dieron a alguien.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Library.Rating.TotalRatings">
+            <summary>
+            Indica la cantidad total de veces que se puntuó a alguien.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Library.Rating.EffectiveRating">
+            <summary>
+            Indica la reputación, calculada como el promedio entre los distintos puntajes que se le asignaron.
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:Library.Rating.#ctor">
+            <summary>
+            Método constructor de la clase Rating.
+            </summary>
+        </member>
+        <member name="M:Library.Rating.AddRating(System.Int32)">
+            <summary>
+            Método para agregar un puntaje a una persona.
+            </summary>
+            <param name="rating">El puntaje a asignar.</param>
+        </member>
+        <member name="T:Library.User">
+            <summary>
+            Una clase para un usuario. Es la clase de donde heredan Employer y Employee.
+            </summary>
+        </member>
+        <member name="P:Library.User.Name">
+            <summary>
+            Nombre del empleador.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Library.User.ID">
+            <summary>
+            Cédula de identidad del empleador.
+            </summary>
+            <value>String que contiene 7 u 8 números, además de los puntos y guiones.</value>
+        </member>
+        <member name="P:Library.User.PhoneNumber">
+            <summary>
+            Número de ceular del empleador.
+            </summary>
+            <value>String de 9 caracteres.</value>
+        </member>
+        <member name="P:Library.User.Rating">
+            <summary>
+            Puntaje del empleador.
+            </summary>
+            <value>El promedio de los puntajes que le fueron asignados.</value>
+        </member>
+        <member name="T:Library.ValidID">
+            <summary>
+            Esta clase sirve para validar el dígito verificador de cédula de identidad.
+            </summary>
+        </member>
+        <member name="M:Library.ValidID.IdIsValid(System.String)">
+            <summary>
+            Valida un número de cédula de identidad; el número puede tener o no puntos y el guión pero debe tener el dígito verificador. Adaptado
+            de https://es.wikipedia.org/wiki/C%C3%A9dula_de_Identidad_de_Uruguay#Match_on_Card.
+            </summary>
+            <param name="iD">El número de cédula</param>
+            <returns>Retorna true si el número de cédula es válido y false en caso contrario.</returns>
+        </member>
         <member name="T:ClassLibrary.Train">
             <summary>
             Esta clase representa un tren muy básico.
