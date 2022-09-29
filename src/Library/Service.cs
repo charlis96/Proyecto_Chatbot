@@ -1,7 +1,10 @@
 using System.Collections.Generic;
 
 namespace Library
-
+/// <summary>
+/// En esta clase están las propuestas hechas por los empleados.
+/// Donde va la categoría del trabajo ofrecido, la descripción, el precio sugerido, la locación. 
+/// </summary>
 {
     public class Service
     {
