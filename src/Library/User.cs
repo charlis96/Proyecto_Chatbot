@@ -3,7 +3,7 @@ namespace Library
     /// <summary>
     /// Una clase para un usuario. Es la clase de donde heredan Employer y Employee.
     /// </summary>
-    public abstract class Person
+    public abstract class User
     {
         /// <summary>
         /// Nombre del empleador.

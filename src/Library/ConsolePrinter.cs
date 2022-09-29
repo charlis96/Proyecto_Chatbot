@@ -1,12 +1,17 @@
+using System;
 using System.Collections.Generic;
 
 namespace Library
 {
     public class ConsolePrinter
     {
-        public void PrintServicesByCategory(Dictionary<Category, List<Service>> dicc)
+        /// <summary>
+        ///  A traves de este metodo lograremos imprimir ordenando por categoría.
+        /// </summary>
+        public void PrintServicesByCategory()
         {
-            foreach (var item in dicc)
+            var jobs = DataBase.JobCategory; // aca tengo q citar al dicc de database
+            foreach (var item in jobs)
             {
                 Console.WriteLine(item.Key);
                 foreach (var value in item.Value)
@@ -15,13 +20,22 @@ namespace Library
                 }
             }
         }
-
+        /// <summary>
+        ///  A traves de este metodo lograremos imprimir ordenando por ubicación.
+        /// </summary>
         public void PrintServicesByLocation(Dictionary<Category, List<Service>> dicc)
         {
             
         }
+        /// <summary>
+        ///  A traves de este metodo lograremos imprimir ordenando por el rating del empleado.
+        /// </summary>
+        public void PrintServicesByRating(Dictionary<Category, List<Service>> dicc)
+        {
+            
+        }
 
-        public void P
+        
 
 
     }

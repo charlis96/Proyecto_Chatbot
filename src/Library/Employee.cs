@@ -5,7 +5,7 @@ namespace Library
     /// <summary>
     /// Esta es la clase de los trabajadores, quienes buscan ofrecer un servicio.
     /// </summary>
-    public class Employee : Person
+    public class Employee : User
     {
         public Location Location { get; set; }
         /// <summary>
@@ -64,13 +64,16 @@ namespace Library
             return employer.Rating.EffectiveRating;
         }
 
-        /*
-        Terminar de escribir este método cuando estén las otras clases.
-
         public void OfferService(Service service)
         {
+            /*
 
+            */
         }
-        */
+        
     }
 }
+
+/*
+    Cundo cree un servicio indique la categoría para que despues se guarde en el diccionario con la clave de la categoria y en el valor es una lista, por lo que se agregaria a la lista 
+*/

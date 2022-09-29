@@ -4,7 +4,5 @@ namespace Library
     {
         public int EjeX { get; set; }
         public int EjeY { get; set; }
-
     }
-    
 }

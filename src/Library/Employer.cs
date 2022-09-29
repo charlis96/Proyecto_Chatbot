@@ -6,7 +6,7 @@ namespace Library
     /// <summary>
     /// Esta es la clase de los empleadores, quienes buscan contratar un servicio.
     /// </summary>
-    public class Employer : Person
+    public class Employer : User
     {
         public List<Service> Services { get; set; }
 
