@@ -3,14 +3,14 @@ using System.Collections.Generic;
 
 namespace Library
 {
+    
     public class ConsolePrinter
     {
         /// <summary>
         ///  A traves de este metodo lograremos imprimir ordenando por categoría.
         /// </summary>
-        public void PrintServicesByCategory()
+        public void PrintServicesByCategory(Dictionary<Category, List<Service>> jobs)
         {
-            var jobs = DataBase.JobCategory; // aca tengo q citar al dicc de database
             foreach (var item in jobs)
             {
                 Console.WriteLine(item.Key);
@@ -34,9 +34,5 @@ namespace Library
         {
             
         }
-
-        
-
-
     }
 }

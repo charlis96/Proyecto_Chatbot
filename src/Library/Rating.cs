@@ -15,11 +15,6 @@ namespace Library
         public int RatingsSum { get; set; }
 
         /// <summary>
-        /// Se utiliza para almacenar los trabajos segun el rating de los empleados.
-        /// </summary>
-        public Dictionary<Category, List<Service>> JobRating { get; set; } = new Dictionary<Category, List<Service>>();
-
-        /// <summary>
         /// Indica la cantidad total de veces que se puntuó a alguien.
         /// </summary>
         /// <value></value>

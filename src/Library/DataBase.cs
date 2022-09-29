@@ -25,9 +25,5 @@ namespace Library
         public List<Employer> Employers { get; set; } = new();
 
         public List<Service> Services { get; set; } = new();
-
-        public Dictionary<Category, List<Service>> JobCategory { get; set; } = new Dictionary<Category, List<Service>>();
-
-        
     }
 }

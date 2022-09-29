@@ -10,10 +10,6 @@ namespace Library
         public double Price { get; set; }
         public Employee Employee { get; set; }
         public Employer Employer { get; set; }
-
-        public Dictionary<Category, List<Service>> ShowCategories()
-        {
-
-        }
+        public Location Location { get; set; }
     }
 }

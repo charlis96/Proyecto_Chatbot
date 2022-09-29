@@ -69,9 +69,19 @@ namespace Library
         }
 
         //Terminar de escribir este método cuando estén las otras clases.
-        public void GetOffersList(Service service)
+        public void GetOffersListByCategory(Category category, List<Service> services)
         {
-            
+            // Iteramos la lista buscando los servicios de esa categoría según la propiedad de category en cada servicio.
+        }
+
+        public void GetOffersListByLocation(Location location, List<Service> services)
+        {
+            // Iteramos la lista buscando los servicios para buscar según la propiedad de location en cada servicio.   
+        }
+
+        public void GetOffersListByRating(List<Service> services)
+        {
+            // Iteramos la lista buscando los servicios y los proponemos según el rating del empleado encargado del servicio.   
         }
 
         /// <summary>
@@ -83,5 +93,6 @@ namespace Library
         {
             return service.Employee.PhoneNumber;
         }
+
     }
 }
