@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-        <mxGraphModel dx="497" dy="370" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="676" dy="497" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
@@ -96,58 +96,58 @@
                 <mxCell id="12" value="&lt;span style=&quot;font-size: 8px&quot;&gt;Employee&lt;br&gt;Employer&lt;br&gt;Rating&lt;br&gt;Service&lt;br&gt;Admin&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9" vertex="1">
                     <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="DataBase" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+                <mxCell id="13" value="DataBase" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
                     <mxGeometry x="73" y="499" width="200" height="200" as="geometry">
                         <mxRectangle x="75" y="59" width="72" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="13">
+                <mxCell id="14" value="" style="endArrow=none;html=1;rounded=0;" parent="13" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="99.76" y="198" as="sourcePoint"/>
                         <mxPoint x="99.76" y="22" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="&lt;span style=&quot;font-size: 8px&quot;&gt;- Almacenaer Datos&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="13">
+                <mxCell id="15" value="&lt;span style=&quot;font-size: 8px&quot;&gt;- Almacenar Datos&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="13" vertex="1">
                     <mxGeometry y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="13">
+                <mxCell id="16" value="&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="13" vertex="1">
                     <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="Categories&lt;br&gt;Employees&lt;br&gt;Employer&lt;br&gt;Services&lt;br&gt;CategoriesJob" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="13">
+                <mxCell id="21" value="Categories&lt;br&gt;Employees&lt;br&gt;Employer&lt;br&gt;Services&lt;br&gt;CategoriesJob" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="13" vertex="1">
                     <mxGeometry x="103" y="75" width="87" height="74" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="ValidId" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+                <mxCell id="17" value="ValidId" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
                     <mxGeometry x="314" y="499" width="200" height="200" as="geometry">
                         <mxRectangle x="75" y="59" width="72" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="17">
+                <mxCell id="18" value="" style="endArrow=none;html=1;rounded=0;" parent="17" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="99.76" y="198" as="sourcePoint"/>
                         <mxPoint x="99.76" y="22" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="&lt;span style=&quot;font-size: 8px&quot;&gt;- Verificar CedulaVer si la cédula es correcta&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="17">
+                <mxCell id="19" value="&lt;span style=&quot;font-size: 8px&quot;&gt;- Verificar CedulaVer si la cédula es correcta&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="17" vertex="1">
                     <mxGeometry y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="&lt;span style=&quot;font-size: 8px&quot;&gt;- Employee&lt;br&gt;- Employer&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="17">
+                <mxCell id="20" value="&lt;span style=&quot;font-size: 8px&quot;&gt;- Employee&lt;br&gt;- Employer&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="17" vertex="1">
                     <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="User" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+                <mxCell id="22" value="User" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
                     <mxGeometry x="548" y="503" width="200" height="200" as="geometry">
                         <mxRectangle x="75" y="59" width="72" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="22">
+                <mxCell id="23" value="" style="endArrow=none;html=1;rounded=0;" parent="22" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="99.76" y="198" as="sourcePoint"/>
                         <mxPoint x="99.76" y="22" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="- Crear usuarios&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="22">
+                <mxCell id="24" value="- Crear usuarios&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="22" vertex="1">
                     <mxGeometry y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="22">
+                <mxCell id="25" value="&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="22" vertex="1">
                     <mxGeometry x="101" y="24" width="99" height="176" as="geometry"/>
                 </mxCell>
             </root>
