@@ -6,7 +6,7 @@ namespace Library
     /// <summary>
     /// Esta es la clase de los empleadores, quienes buscan contratar un servicio.
     /// </summary>
-    public class Employer : User
+    public class Employer : Person
     {
         public List<Service> Services { get; set; }
 
@@ -16,6 +16,9 @@ namespace Library
         /// <param name="name">Nombre del empleador.</param>
         /// <param name="iD">Cédula de identidad del empleador.</param>
         /// <param name="phoneNumber">Número telefónico del empleador.</param>
+        
+        public (int, int) Location { get; set; }
+
         public Employer(string name, string iD, string phoneNumber)
         {
             this.Name = name;
@@ -66,9 +69,9 @@ namespace Library
         }
 
         //Terminar de escribir este método cuando estén las otras clases.
-        public List<Service> GetOffersList(Service service)
+        public void GetOffersList(Service service)
         {
-
+            
         }
 
         /// <summary>

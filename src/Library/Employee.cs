@@ -5,17 +5,19 @@ namespace Library
     /// <summary>
     /// Esta es la clase de los trabajadores, quienes buscan ofrecer un servicio.
     /// </summary>
-    public class Employee : User
+    public class Employee : Person
     {
+        public Location Location { get; set; }
         /// <summary>
         /// Método constructor de la clase Employee.
         /// </summary>
         /// <param name="name"></param>
         /// <param name="iD"></param>
         /// <param name="phoneNumber"></param>
-        public Employee(string name, string iD, string phoneNumber)
+        public Employee(string name, string iD, string phoneNumber, Location location)
         {
-            this.Name = name;
+            Name = name;
+            Location = location;
 
             if (ValidID.IdIsValid(iD))
             {
